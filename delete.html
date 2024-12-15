@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar and Section</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar-6">
+    <a href="index.html">
+      <img src="images/logo.svg" alt="Logo" class="navbar-logo" />
+    </a>
+  </nav>
+  <section id="delete-data-section" class="form-section">
+    <div class="form-container">
+      <h2 class="form-title">Delete Data</h2>
+      <p class="form-description">All the data of the following email id will be deleted</p>
+      <form class="delete-form">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+  </section>
+  <footer class="simple-footer"data-aos="fade" data-aos-delay="200">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="images/logo.png" alt="Logo">
+            <p>© 2024 Journal Of Me, All rights reserved </p>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms and Conditions</a></li>
+                <li><a href="delete.html">Delete Account</a></li>
+            </ul>
+        </nav>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+  </body>
+  </html>
